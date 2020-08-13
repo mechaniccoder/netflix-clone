@@ -44,6 +44,12 @@ const NavWrapper = styled.nav`
     width: 40px;
     object-fit: contain;
   }
+
+  @media screen and (max-width: 650px) {
+    .nav__links {
+      display: none;
+    }
+  }
 `;
 
 function Nav() {

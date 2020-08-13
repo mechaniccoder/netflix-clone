@@ -59,6 +59,23 @@ const BannerWrapper = styled.header`
       }
     }
   }
+  @media screen and (max-width: 650px) {
+    & {
+      min-height: 450px;
+    }
+    .banner__contents {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 30px;
+      bottom: 0;
+    }
+    .banner__contents h2 {
+      font-size: 1.5rem;
+    }
+    .banner__contents p {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 function Banner() {

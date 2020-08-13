@@ -32,6 +32,11 @@ const RowWrapper = styled.div`
     transform: scale(1.2);
     margin: 0 30px;
   }
+  @media screen and (max-width: 650px) {
+    .row__poster {
+      max-width: 120px;
+    }
+  }
 `;
 
 interface RowProps {
